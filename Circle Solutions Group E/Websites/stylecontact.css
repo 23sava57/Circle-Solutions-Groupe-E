@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+img{
+    display: flex;
+    width: auto;
+    height: 80px;
+    align-items: flex-start;
+    padding-top: 8px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.navbutton{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+header{
+    height: 90px;
+    width: 100%;
+    background-color: #c4e9f7;
+}
+.language-switch{
+    display: flex;
+    align-items: center;
+    padding-right: 50px;
+}
+.tittle{
+    margin-left: 500px;
+}
+
+.contact-card{
+    display: flex;
+    justify-content: center;
+    background-color: #c4e9f7;
+    height: 400px;
+    width: 600px;
+}
